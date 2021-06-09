@@ -1,7 +1,6 @@
 body{
-background:#14131A;
-color:#fff;
-font-family: 'Roboto', sans-serif;
+  color:#fff;
+  font-family: 'Roboto', sans-serif;
 }
 .container{
   max-width: 1140px;
@@ -21,8 +20,7 @@ font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  
+  display: flex;  
 }
 .nav-menu-item{
   margin-right: 30px;
@@ -34,16 +32,49 @@ font-family: 'Roboto', sans-serif;
 .film-date{
   display: block;
   font-size: 24px;
-line-height: 28px;
-color: rgba(255, 255, 255, 0.8);
-margin-bottom: 38px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 38px;
 }
 .film-logo{
   margin-bottom: 40px;
 }
 .film-description{
   font-size: 16px;
-line-height: 140%;
-color: rgba(255, 255, 255, 0.8);
-max-width: 423px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 423px;
+  margin-bottom: 70px;
+}
+.btn{
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.btn-text, .btn-icon{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 16px;
+}
+.btn-text{
+  margin-left: 10px;
+}
+.btn-primary{
+  color: #8D0019;
+  background: #FFFFFF;
+}
+.btn-link{
+  color: #FFFFFF;
+}
+.venom{
+  position: absolute;
+  top: 0;
+  right: 0;  
+}
+.blood{
+  background: url('../img/blood.png')  no-repeat top right,#14131A url('../img/background.jpg') no-repeat center / 100%;
+
 }
