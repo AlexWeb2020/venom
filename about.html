@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/norm.css">
+  <script src="js/main.js" defer></script>
 
   <title>О фильме Веном 2</title>
 </head>
@@ -24,19 +25,23 @@
           <span class="menu-btn-text">меню</span>
           <img src="img/menu.svg" alt="burger-menu" class="menu-btn-icon">
         </button>
+        <button class="menu-close">
+          <span class="menu-close-text">зактыть</span>
+          <img src="img/arrov.svg" alt="close" class="menu-close-icon">
+        </button>
         <ul class="nav-menu">
           <li class="nav-menu-item">
-            <a href="/" class="nav-menu-link">о фильме</a>
+            <a href="/" class="nav-menu-link">Главная</a>
           </li>
           <li class="nav-menu-item">
-            <a href="/" class="nav-menu-link">трейлер</a>
+            <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0" class="nav-menu-link">Трейлер</a>
+          </li>
+          <!-- <li class="nav-menu-item">
+            <a href="/" class="nav-menu-link">Актеры</a>
           </li>
           <li class="nav-menu-item">
-            <a href="/" class="nav-menu-link">актеры</a>
-          </li>
-          <li class="nav-menu-item">
-            <a href="/" class="nav-menu-link">премьера</a>
-          </li>
+            <a href="/" class="nav-menu-link">Премьера</a>
+          </li> -->
         </ul>
       </nav>
     </header>
@@ -60,9 +65,9 @@
           <li class="list-item">Пегги Лу</li>
         </ul>
         <div class="trailer">
-          <button class="play">
+          <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0" class="play">
             <img src="img/play.svg" alt="play-icon" class="play-icon">
-          </button>
+          </a>
         </div>
       </div>
 
@@ -91,6 +96,9 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 
 </html>
